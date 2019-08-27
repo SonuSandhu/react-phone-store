@@ -1,5 +1,6 @@
 import React from 'react';
 
+
  function CartItem ({item, value}) {
      const{id, title, img, price, total, count} = item;
      const {increment, decrement, removeItem} = value
@@ -29,7 +30,7 @@ import React from 'react';
                 {/*  */}
                 <div className="col-10 mx-auto col-lg-2">
                     <div className="cart-icon" onClick={() =>removeItem(id)}>
-                        <i className="fas a-trash">R</i>
+                        <i className="fas a-trash"></i>
                     </div>
                 </div>
                 <div className="col-10 mx-auto col-lg-2">

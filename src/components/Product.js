@@ -29,8 +29,8 @@ class Product extends Component {
                                     in Cart
                                 </p>
                                 ):(
-                                //<i className="fas fa-cart-plus"/>)}
-                                <i>add to cart</i>)}
+                                <i className="fas fa-cart-plus"/>)}
+                                
                         </button>
                     </div>)}
                     
